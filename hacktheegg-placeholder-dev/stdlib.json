@@ -1,0 +1,23 @@
+{
+  "name": "hacktheegg/placeholder",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/removal_of_invites.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create-1.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/bot/message/create.js": {
+      "name": "discord.bot.message.create"
+    },
+    "functions/events/discord/dm/delete.js": {
+      "name": "discord.dm.delete"
+    }
+  },
+  "env": []
+}
